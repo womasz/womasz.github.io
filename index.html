@@ -6,6 +6,7 @@
   <title>Tomasz Woźniakowski - gallery</title>
   <link rel="stylesheet" href="files/css/labs.css">
   <link rel="stylesheet" href="files/css/masonry.css">
+
 </head>
 <body class="labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
 <div class="container">
@@ -22,94 +23,132 @@
       <h3><a href="about.html" title="About me">About me</a></h3>
       <h3><a href="contact.html" title="Contact">Contact</a></h3>
     </div><!-- .intro -->
-    <div class="masonry">
-		        <div class="brick">
-        <img src="files/images/7.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	  
-	  	        <div class="brick">
-        <img src="files/images/17.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	        <div class="brick">
-        <img src="files/images/18.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
 
-      <div class="brick">
-        <img src="files/images/2.png" alt="Oranges and Pomegranates" title="Oranges and Pomegranates">
-      </div>
-	      <div class="brick">
-        <img src="files/images/1.png" alt="Cherry plant" title="Cherry plant">
-      </div>
-      <div class="brick">
-        <img src="files/images/3.png" alt="Strawberry" title="Strawberry">
-      </div>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.header {
+  text-align: center;
+  padding: 32px;
+}
 
-      <div class="brick">
-        <img src="files/images/5.png" alt="Pears" title="Pears">
-      </div>
-	  	  	  	        <div class="brick">
-        <img src="files/images/okno.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	        <div class="brick">
-        <img src="files/images/9.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	        <div class="brick">
-        <img src="files/images/10.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	  	  	  	        <div class="brick">
-        <img src="files/images/24.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	  	        <div class="brick">
-        <img src="files/images/inside jokers.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	  	  		  	        <div class="brick">
-        <img src="files/images/27.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-	  	<div class="brick">
-        <img src="files/images/12.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	        <div class="brick">
-        <img src="files/images/13.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-  	  	        <div class="brick">
-        <img src="files/images/22.png" alt="Easter-eggs" title="Easter-eggs">
-	
-      </div>
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE 10 */
+  flex: 25%;
+  padding: 0 4px;
+}
 
-	  	
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
 
+.btn:hover {
+  background-color: #ddd;
+}
 
-  	  	    	  	        <div class="brick">
-        <img src="files/images/Olcia.png" alt="Easter-eggs" title="Easter-eggs">
-	      </div>
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
 
-	        <div class="brick">
-        <img src="files/images/19.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	        <div class="brick">
-        <img src="files/images/20.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-
-	        <div class="brick">
-        <img src="files/images/15.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
-	        <div class="brick">
-        <img src="files/images/4.png" alt="Blueberries" title="Blueberries">
-      </div>
-      <div class="brick">
-        <img src="files/images/6.png" alt="Easter-eggs" title="Easter-eggs">
-      </div>
+<!-- Header -->
 
 
-	  
+<!-- Photo Grid -->
+		<div class="row"> 
+  <div class="column">
 
-    </div><!-- .masonry -->
+		<img src="files/images/7.png">
+
+        <img src="files/images/17.png">
+
+        <img src="files/images/18.png">
+
+        <img src="files/images/2.png">
+
+        <img src="files/images/1.png">
+
+        <img src="files/images/3.png">
+
+        <img src="files/images/9.png">
+
+
+		
+  </div>
+		
+  <div class="column">
+
+
+        <img src="files/images/10.png">
+
+        <img src="files/images/24.png">
+
+        <img src="files/images/inside jokers.png">
+
+        <img src="files/images/27.png">
+
+
+        <img src="files/images/Olcia.png">
+		
+		<img src="files/images/5.png">
+
+
+		        <img src="files/images/22.png">
+		  
+		  
+		  </div>
+  <div class="column">		
+
+        <img src="files/images/19.png">
+
+        <img src="files/images/20.png">
+
+        <img src="files/images/15.png">
+
+        <img src="files/images/4.png">
+
+        <img src="files/images/6.png">
+		
+        <img src="files/images/12.png">
+
+
+
 
   </div>
-</div>
+    </div>
+
+
+		
+
 </body>
 </html>
