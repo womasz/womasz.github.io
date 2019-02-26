@@ -157,4 +157,29 @@ a {
   margin-bottom: 1.75em;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: left;
+
+}
+.stopka {     
+margin-left: 100px;
+  border-spacing: 30px;
+	  font-size: .600em;
+  font-weight: 400;
+
+
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+table {
+  border-spacing: 50px;
+}
 
