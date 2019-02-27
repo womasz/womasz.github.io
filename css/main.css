@@ -27,6 +27,14 @@ body, html {
 }
 
 /*---------------------------------------------*/
+
+img {
+
+  image-rendering: crisp-edges;
+
+}
+
+
 a {
 	font-family: Ubuntu-Bold;
 	font-size: 14px;
